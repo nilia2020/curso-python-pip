@@ -21,6 +21,7 @@ python3 main.py
 ```sh
 git clone https://github.com/nilia2020/curso-python-pip.git
 cd app
+pip3 install -m venv env
 source env/bin/activate
 pip3 install -r requiremnts.txt
 python3 main.py
